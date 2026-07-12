@@ -1,2 +1,47 @@
+# Environment
 .env
-venv
+.env.local
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build/Dist
+build/
+dist/
+*.egg-info/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate*
+*.tfvars
+
+# AWS
+.aws/
+lambda_function.zip
+
+# Streamlit
+.streamlit/secrets.toml
